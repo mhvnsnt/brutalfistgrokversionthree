@@ -1,0 +1,378 @@
+{
+  "character": "Bannon",
+  "policy": "REAL_GLB_ONLY / REAL_FBX_ONLY",
+  "sourceGlb": "native/source/BANNON_rigged.glb",
+  "mesh": {
+    "file": "BF_bannon.x",
+    "vertices": 14050,
+    "triangles": 17998,
+    "bones": 58,
+    "xBytes": 3427488,
+    "scale": 6.383047950808134
+  },
+  "engine": {
+    "executableLoads": "smgr->getMesh(Mesh1/BF_bannon.x)",
+    "roster": "chara_bannon    0",
+    "path": "schwarzerblitz_engine/bin/media/characters/chara_bannon",
+    "installed": true
+  },
+  "mocap": {
+    "listed": 183,
+    "exported": 46,
+    "missing_lfs": 48,
+    "missing_fbx": 0,
+    "corrupt_fbx": 21,
+    "skipped_character_rig": 25,
+    "skipped_too_large": 13,
+    "failed": 30
+  },
+  "bound": [
+    {
+      "engine": "jab",
+      "clip": "Combo Punch",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/jab.x"
+    },
+    {
+      "engine": "heavy",
+      "clip": "Drop Kick",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/heavy.x"
+    },
+    {
+      "engine": "hitReaction",
+      "clip": "Hit Reaction",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/hitReaction.x"
+    },
+    {
+      "engine": "knockdown",
+      "clip": "Falling Flat Impact",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/knockdown.x"
+    },
+    {
+      "engine": "evade",
+      "clip": "Corkscrew Evade",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/evade.x"
+    },
+    {
+      "engine": "taunt",
+      "clip": "Capoeira",
+      "frames": 100,
+      "x": "native/media/characters/chara_bannon/animations/taunt.x"
+    }
+  ],
+  "clips": [
+    {
+      "clip": "idle",
+      "viewer": "clips/idle.json",
+      "cat": "locomotion",
+      "status": "exported",
+      "source": "BANNON GLB clip"
+    },
+    {
+      "clip": "walkFast",
+      "viewer": "clips/walkFast.json",
+      "cat": "locomotion",
+      "status": "exported",
+      "source": "BANNON GLB clip"
+    },
+    {
+      "clip": "running",
+      "viewer": "clips/running.json",
+      "cat": "locomotion",
+      "status": "exported",
+      "source": "BANNON GLB clip"
+    },
+    {
+      "clip": "Brooklyn Uprock",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Brooklyn_Uprock.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Brutal Assassination",
+      "cat": "grapple",
+      "status": "exported",
+      "viewer": "clips/Brutal_Assassination.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Can Can",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Can_Can.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Capoeira",
+      "cat": "style_stance",
+      "status": "exported",
+      "viewer": "clips/Capoeira.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Combo Punch",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/Combo_Punch.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Cross Jumps",
+      "cat": "aerial_transition",
+      "status": "exported",
+      "viewer": "clips/Cross_Jumps.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Crouch Torch Walk Right",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Crouch_Torch_Walk_Right.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Crouch Walk Forward",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Crouch_Walk_Forward.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Death From Back Headshot",
+      "cat": "knockdown",
+      "status": "exported",
+      "viewer": "clips/Death_From_Back_Headshot.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Defeat",
+      "cat": "taunt",
+      "status": "exported",
+      "viewer": "clips/Defeat.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Drop Kick",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/Drop_Kick.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Drunk Idle Variation",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Drunk_Idle_Variation.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Drunk Run Forward",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Drunk_Run_Forward.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Drunk Walk",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Drunk_Walk.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Dwarf Walk",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Dwarf_Walk.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Dying Backwards",
+      "cat": "knockdown",
+      "status": "exported",
+      "viewer": "clips/Dying_Backwards.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Esquiva 4",
+      "cat": "defense",
+      "status": "exported",
+      "viewer": "clips/Esquiva_4.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Falling Flat Impact",
+      "cat": "knockdown",
+      "status": "exported",
+      "viewer": "clips/Falling_Flat_Impact.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Falling Forward Death",
+      "cat": "knockdown",
+      "status": "exported",
+      "viewer": "clips/Falling_Forward_Death.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Ginga Backward",
+      "cat": "defense",
+      "status": "exported",
+      "viewer": "clips/Ginga_Backward.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Ginga Sideways 2",
+      "cat": "defense",
+      "status": "exported",
+      "viewer": "clips/Ginga_Sideways_2.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Heavy Weapon Swing",
+      "cat": "grapple",
+      "status": "exported",
+      "viewer": "clips/Heavy_Weapon_Swing.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Hit On Side Of Head",
+      "cat": "reaction",
+      "status": "exported",
+      "viewer": "clips/Hit_On_Side_Of_Head.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Hit On The Back",
+      "cat": "reaction",
+      "status": "exported",
+      "viewer": "clips/Hit_On_The_Back.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Hit Reaction",
+      "cat": "reaction",
+      "status": "exported",
+      "viewer": "clips/Hit_Reaction.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Hit To Body",
+      "cat": "reaction",
+      "status": "exported",
+      "viewer": "clips/Hit_To_Body.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Hit To Head",
+      "cat": "reaction",
+      "status": "exported",
+      "viewer": "clips/Hit_To_Head.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Hurricane Kick",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/Hurricane_Kick.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Illegal Elbow Punch",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/Illegal_Elbow_Punch.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Illegal Elbow Punch (1)",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/Illegal_Elbow_Punch_1.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Illegal Elbow Punch (2)",
+      "cat": "strike",
+      "status": "exported",
+      "viewer": "clips/Illegal_Elbow_Punch_2.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Injured Hurting Idle",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Injured_Hurting_Idle.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Injured Jog",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Injured_Jog.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Injured Run Backwards Right Turn",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Injured_Run_Backwards_Right_Turn.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Injured Turn Right",
+      "cat": "locomotion",
+      "status": "exported",
+      "viewer": "clips/Injured_Turn_Right.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    },
+    {
+      "clip": "Zombie Dying",
+      "cat": "knockdown",
+      "status": "exported",
+      "viewer": "clips/Zombie_Dying.json",
+      "frames": 100,
+      "source": "real FBX mocap"
+    }
+  ]
+}

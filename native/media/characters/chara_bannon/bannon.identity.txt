@@ -1,0 +1,8 @@
+BannonId=bannon
+DisplayName=Bannon
+Bio=The physical nucleus and absolute force of the Bannon Engine. Driven by raw physics and unmatched grit.
+SourceGLB=native/source/BANNON_rigged.glb
+Policy=REAL_GLB_ONLY
+MeshFormat=DirectX.x
+Triangles=17998
+Bones=58
